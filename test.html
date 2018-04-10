@@ -13,6 +13,15 @@
                     width: 952px;
                 }
 
+                ul,li{
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                }
+                a{
+                    text-decoration: none;
+                }
+
                 #header{
                     margin: 0 0 6px 0;
                     margin-left: auto;
@@ -26,7 +35,6 @@
                     margin-top: -4px;
                 }
                 #header_menu .header_menu_item a{
-                    text-decoration: none;
                     color: #fff; 
                     font-size: 14px;
                     font-weight: bold;
@@ -50,6 +58,18 @@
                 #sidebar .frame {
                     border: #D5D2D2 solid 1px;
                 }
+                .frame_body.bullet_left_head{
+                    text-align: center;
+                }
+                .frame_body.bullet_left_head li a{
+                    color: #555;
+                    line-height: 33px;
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+                .frame_body.bullet_left_head li a:hover{
+                    color:#618fc3;
+                }
                 #sidebar .frame_head {
                     background-color: #EFEFEF;
                 }
@@ -69,7 +89,6 @@
                        
                 }
                 #content a{
-                    text-decoration: none;
                     color: #555;
                     font-family: "SimSun"; 
                 }
@@ -144,6 +163,8 @@
                     </div>
                     <div class="frame_body bullet_left_head"><!--#begineditable name="二级导航" action="webber.wbst.com.nav.MenuAction" layout="/system/_component/sitenav/tplvnav.jsp" tpltype="1" contype="" clone="" viewid="199398" contentviewid="" tagname="二级导航"-->
                         <ul>
+                            <li><a href="#" class="question">答&ensp; &ensp; 疑</a></li>
+                            <li><a href="#" class="experience ">个人心得</a></li>
                         </ul><!--#endeditable-->
                     </div>
                 </div>
@@ -157,6 +178,7 @@
                     <hr>
                     <!--#endeditable-->
                 </div>
+             
             </div>
             <div id="footer_seperator">
             <br />
